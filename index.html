@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint.calc</title>
+
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div class="container">
+<div class="col-a">
+
+        <header>
+     Paint.calc 
+ </header>
+<form action="">
+<Label>Digite a altura da parede:</Label>
+<input id="altura" type="number">
+<br>
+
+<label  for="">Digite a largura da parede:</label>
+<input id="largura" type="number">
+<br>
+
+</form>
+<button id="enviar" onClick="calcarea()" class="enviar">Calc</button>
+</div>
+
+<div class="col-b">
+    <div class="componet ">
+<span id="resultado">Paint.calc</span>
+<p>Litros de tinta</p>
+</div>
+</div>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+</html>
